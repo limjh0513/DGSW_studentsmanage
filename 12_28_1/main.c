@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	Stu *stu; //200명 저장
+	Stu* stu; //200명 저장
 	int NumOfData = 0; //현재 저장된 학생 수
 	int choose; //기능 선택
 	int put_grade; //찾고싶은 학번

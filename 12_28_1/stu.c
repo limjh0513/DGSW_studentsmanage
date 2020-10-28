@@ -112,7 +112,7 @@ int Str_len(char* arr)
 int Delete(Stu* stu)
 {
 	stu->grade = NULL; //학번 0으로 초기화
-	strcpy(stu->name,"전학"); //이름 초기화
+	strcpy(stu->name, "전학"); //이름 초기화
 	strcpy(stu->ad, ""); //주소 초기화
 	strcpy(stu->phone, ""); //전화번호 초기화
 	stu->korean = NULL; //국어점수 -1로 초기화
